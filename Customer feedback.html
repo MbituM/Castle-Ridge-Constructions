@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-g">
+    <meta name="viewport"content="width=device-width,initial-scale=1.0">
+<title>Customer Feedback - Castle Ridge Constructions</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+<div class="navbar">
+<div class="logo">
+    <img src="images/crclogo.jpg" width="145px">
+</div>
+    <nav>
+    <ul id="MenuItems">
+        <li><a href="loginpage.html">Login</a></li>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="Designs.html ">Designs</a></li>
+        <li><a href="contractors.html">contractors</a></li>
+        <li><a href="Customer feedback.html">Customer Feedback</a></li>
+        <li><a href="Aboutus.html">About Us</a></li>
+        </ul>
+    </nav>
+    <img src="images/menu.png" class="menu-icon" onclick="menutoggle()">
+</div>
+</div>
+        <div class="container" id="cont">
+            <h2 class="title">Customer Feedback</h2>
+                <form id="crcreview">
+
+                    <p><label for="crcreview"><b class="review">Review of Castle Ridge Constuctions:</label></p></b>
+                    <p><label>username</label></p>
+                    <input type="text" placeholder="username" >
+                    <p><label>User email</label></p>
+                    <input type="text" placeholder="email" >
+                    <p><label>Comments</label></p>
+                    <textarea id="crcreview" name="comments" rows="4" cols="50"></textarea>
+                    <br>
+                    <input type="submit" value="Submit" class="submitbtn">
+                  </form>
+        </div>
+    </div>
+
+<!------- Customer Feedback ------->  <div class="small-container"></div>
+<div class="Customer Feedback">
+<div class="small container">
+    <div class="row">
+        <div class="col-3">
+            <i class="fa fa-quote-left"></i>
+            <p>This is one of the best construction agencies and they make sure that they construct the apartments to your satisfaction. Therefore,i highly recommend them to anyone who is interested</p>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+            <img src="images/user1.jpg">
+            <h3>Maina Kageni</h3>
+        <div class="col-3">
+            <i class="fa fa-quote-left"></i>
+            <p>My apartment upon completion was according to the plan drawn, completed on time and the bulding materials as well as the tiles installed were of high quality and Very beautiful. thank you </p>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+            </div>
+            <img src="images/user2.jpg">
+            <h3>Azziad Nasenya</h3>
+             <div class="col-3">
+            <i class="fa fa-quote-left"></i>
+            <p>Very happy with my house.Fast construction too. I have constructed real estate before so I know The quality and the designs  of the houses. But this apartment exceeds my expectations. </p>
+        <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+        </div>  
+        <img src="images/user3.jpg">
+        <h3>Sarah Hassan</h3>
+    
+            <!-------footer ------>
+            <div class="footer">
+            <div class="container">
+                <div class="row">
+        <div class="footer-col-1">
+                        <h3>Download Our App</h3>
+                        <p>Download App for Android and Ios mobile phone</p>
+    <div class="app-logo">
+        <img src="images/playstore.png">
+        <img src="images/appstore.png">
+    </div>
+                    </div>
+                    <div class="footer-col-2">
+                        <img src="images/crclogo.jpg">
+                        <p>A perfect home just for you</p>
+                    </div>
+                    <div class="footer-col-3">
+                        <h3>Useful links</h3>
+                        <ul>
+                            <li>Blog Post</li>
+                            <li>Return Policy</li>
+                            <li>Join Affiliate</li>
+                        </ul>
+                    </div>
+                    <div class="footer-col-3">
+                        <h3>Follow Us</h3>
+                        <ul>
+                            <li>Facebook</li>
+                            <li>Twitter</li>
+                            <li>Instagram</li>
+                            <li>Youtube</li>
+                        </ul>
+                    </div>
+                </div>
+                <p class="copright">Copyright 2022-Project Management project</p>
+                </div>
+            </div>
+        
+         <!-----js for toggle Menu----->
+        <script>
+            var MenuItems =document.getElementById("MenuItems");
+            MenuItems.style.maxHeight="0px";
+            function menutoggle(){
+                if(MenuItems.style.maxHeight== "0px")
+                {
+                    MenuItems.style.maxHeight== "200px"
+                }
+                else
+                {
+                    MenuItems.style.maxHeight="0px"
+                }
+            }
+        </script>
+
+</body>
+</html>
